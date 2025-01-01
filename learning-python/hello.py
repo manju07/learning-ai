@@ -1,7 +1,4 @@
-import sys
-import set_practice
 import loops_practice
-from loops_practice import buble_sort
 
 x = 1
 x += 1
@@ -10,7 +7,7 @@ if x % 2 == 0:
 else:
     print("Even")
 
-# print("Hi, Learning python")
+# print("Hi, Learning learning-python")
 # print(sys.version)
 
 id = 1;
