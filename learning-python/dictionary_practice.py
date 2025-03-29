@@ -5,6 +5,7 @@ dict1 = {
 }
 
 print(dict1)
+print("$$$name", dict1["name"])
 
 for key in dict1.keys():
     print(key, dict1[key])

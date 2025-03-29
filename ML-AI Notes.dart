@@ -1,8 +1,13 @@
 
 - AI is making the system as intelligent as human as.
 
+Hierarchy
+- AI - Build machines behaves and intelligent as like human
+    - ML - One of the approach to build the AI thru learning past data
+        - Gen-AI - Create new content by learning thru old data.
 
-- ML is subset of AI
+
+- ML is subset of AI. learn from data examples
 - How ML works? 
     - Use existing data to train the model
     - Build model
@@ -22,7 +27,7 @@
 
 - Prediction possibilities of Label
     - Regression Model: If label is a number with a range
-    - Classision: If label fall under set of predefined values.
+    - Classision Model: If label fall under set of predefined values.
 
 
 - Creating ML Models
@@ -32,6 +37,14 @@
     - Create model with ML algorithm
     - Evaluate the accuracy of the prediction
     - Deploy the model
+
+- Create Model process
+    - Training 
+    - Evaluation
+    - Inference
+
+- Gen-AI:
+    
 
 
 
