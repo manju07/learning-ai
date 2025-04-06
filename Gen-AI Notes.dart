@@ -5,7 +5,7 @@
         - Text, Images, Videos
     
     - Examples:
-        - Code, Image, video and contentgeneration.
+        - Code, Image, video and content generation.
 
     - Gen-AI is finding the next word based on given context.
     Identify the next word on probability with the highest rank word and other parameters.
@@ -96,10 +96,79 @@
         - RASCEF - Role, Action, Steps, Context, Examples, Format - Provide all these detals in prompt
     
     - Experiment with parameters:
-        - 
+        - Token limit: Expecting number of words from output prompt
+            - 1 token = 4 chars 
+         - below parameters helps to determine the next token to choose.
+            - Top-K: choose next top K tokens.
+            - Top-P: Sum of probabilitys for cut off to choose the tokens. 
+            - Temparature: Randomness
+                - 0 - Low
+                - 1 - High
 
 
 
+- Google Vertex AI Studio
+    - Text generation model
+
+    - Code models
+        - code-bison: Generate code
+        - code-chat bison: Code assist to QA
+        - code-gecko: Provides code auto completion.
+
+    - Chat model
+        - chat-bison
+
+    - Image models
+        - Imagen - text to image
+        - Imagen Captioning - generate description for image
+        - Imagen Visual QA - Answer to questions on given image
+
+    - Speech model
+        - Speech to Text
+        - Text to Speech
+    
+    - Tuning Language Models
+        - If text/any model does not work as expected, we can tune/train the model and predict it.
+
+- Embeddings
+    - Multi dimensional representation of a word in each context, represented in uniform distribution ( 0 to 1).
+    
+    - Ex:
+        - Speed of animals - Elephent (0.1), Rabbit (0.4), Cheetah(0.7)
+        - Water usage of animals - Cheetah (0.2), Rabbit (0.2), Monkey(0.5), Elephent(0.9) 
+        
+    - Widely in NLP.
+        - Finding similar sentences.
+        - Recommendation system
+        - Grouping similar words
+        - Outing different word from group
+
+- LangChain
+    - Easily switch the models (from openAI to openLLaMA). 
+    - Helps to execute the sequence of chains.
+    - Provides abstractions for
+        - text, chat and embedding models.
+    - Also provides promptTemplate
+    - Also used to long article Q & A
+        - Splitting file into chuncks
+        - Each chunk to embedding chunk for finding similar chunk for given question
+        - searching in those similar chunks
+    - Also summarazing the multiple docs thru Map-Reduce
+
+
+- Building Gen-AI App in Google
+    - Gen App builder
+        - Search 
+        - Chat
+        - Recommendation
+    - makersuite.google.com - play with it
+    - colab
+
+- API communication
+    - init project
+    - set parameters
+    - create model
+    - predict thru model
 
 
 
