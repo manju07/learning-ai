@@ -26,4 +26,3 @@ print(list2[3][1][0], list2[3][1][1])
 print((list2[1:]))
 print((list2[:]))
 print((list2[:3]))
-

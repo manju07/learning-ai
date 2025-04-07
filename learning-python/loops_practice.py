@@ -6,6 +6,7 @@ def selection_sort(arr):
                 arr[i], arr[j] = arr[j], arr[i]
     return arr
 
+
 print(selection_sort([100, 2, 30, 4, 25, 6, 7, 8, 9]))
 
 
@@ -27,7 +28,8 @@ def increment_by_data(data, max):
         print(i)
 
 
-# increment_by_data(3, 100)
+increment_by_data(3, 100)
+
 
 # k range (0, n)
 # i = 0, j = 1, compare values and swap

@@ -1,8 +1,8 @@
-
 class Person:
     def __init__(self, firstname, lastname):
         self.firstname = firstname
         self.lastname = lastname
+
 
 class Student(Person):
     def __init__(self, firstname, lastname, dept):

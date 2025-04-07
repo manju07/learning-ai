@@ -5,7 +5,7 @@ print(tuple1)
 print(len(tuple1))
 
 #  with item
-tuple2 = (1, )
+tuple2 = (1,)
 print(tuple2)
 
 print(type(tuple2))

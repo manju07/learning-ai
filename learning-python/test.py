@@ -1,5 +1,3 @@
-
-
 data = [1, 2, 3, 4]
 
 for x in data:
@@ -38,8 +36,7 @@ from class_practice import Student
 s1 = Student("M", "A", "CS")
 print(s1)
 
-
-print(2**6) # 2^6
+print(2 ** 6)  # 2^6
 
 print((True and True) or (True or False))
 
@@ -55,10 +52,11 @@ else:
 def square(num):
     return num ** 2
 
+
 print('list(map(square, set1))', set1, list(map(square, set1)))
 
 # Map and lambda
 print('list(map(lambda num: num ** 2, set1))', set1, list(map(lambda num: num ** 2, set1)))
 
 # Filter and lambda
-print('list(filter(lambda num: num%2 == 1, set1))', set1, list(filter(lambda num: num%2 == 1, set1)))
+print('list(filter(lambda num: num%2 == 1, set1))', set1, list(filter(lambda num: num % 2 == 1, set1)))

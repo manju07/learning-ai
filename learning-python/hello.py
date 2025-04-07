@@ -1,4 +1,4 @@
-import loops_practice
+from loops_practice import buble_sort
 
 x = 1
 x += 1
@@ -34,12 +34,12 @@ print(x, y, z)
 print(x + y + z)
 
 
-def testFunction(name, phone):
+def test_function(name, phone):
     print("\nExecuting testFunction")
     print(name, phone)
 
 
-testFunction("manjunath", "9886988915")
+test_function("manjunath", "9886988915")
 
 a = 2
 b = 10
@@ -63,4 +63,4 @@ print(set1)
 set1 = set(list1)
 print(set1)
 
-print(loops_practice.buble_sort(list1))
+print(buble_sort(list1))
